@@ -24,6 +24,13 @@ function book_review_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 0,
       ),
+      'search_index' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -69,6 +76,13 @@ function book_review_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 1,
       ),
+      'search_index' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 1,
+      ),
       'teaser' => array(
         'label' => 'above',
         'settings' => array(),
@@ -103,6 +117,13 @@ function book_review_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 2,
+      ),
+      'search_index' => array(
         'label' => 'above',
         'module' => 'list',
         'settings' => array(),
